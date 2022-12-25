@@ -7,7 +7,8 @@
 .blog {
     margin-top: 0;
     margin-bottom: 0;
-
+    padding-left: 135px;
+    padding-right: 135px;
 }
 
 .blog-list {
@@ -17,8 +18,12 @@
 
 .blog-item {
     padding: 48px;
-    width: 570px;
-    background-color: aqua;
+    width: 570px;  
+}
+
+.blog-item:hover,
+.blog-item:focus {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
 .blog-item:nth-child(1) {
