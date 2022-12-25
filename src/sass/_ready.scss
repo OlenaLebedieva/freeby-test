@@ -1,12 +1,20 @@
 .link {
   text-decoration: none;
 }
+
+.section-ready {
+  background-color: #f7941e;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
 .ready {
   display: flex;
   padding-top: 81px;
   padding-bottom: 69px;
   padding-left: 235px;
-  background-color: #f7941e;
 }
 
 .ready-title {
@@ -21,6 +29,8 @@
 .ready-text,
 .sign-up,
 .contact-us {
+  margin: 0;
+  padding: 0;
   font-family: 'Gilroy';
   font-size: 32px;
   line-height: 1.4;
@@ -29,7 +39,6 @@
 
 .ready-buttons {
   display: flex;
-
   margin-left: 229px;
 
   list-style: none;
