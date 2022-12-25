@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 37px 34px 37px 80px;
+}
+
+// .header .container {
+//     display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         padding: 37px 34px 37px 80px;
+// }
+
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title {
+    font-family: 'Homemade Apple';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.16;
+    align-items: center;
+    text-align: center;
+    margin-right: 433px;
+}
+
+.navigation-item:not(:last-child) {
+    margin-right: 31px;
+}
+
+.navigation-item:last-child {
+    margin-right: 341px;
+}
+
+.navigation-link {
+    font-size: 18px;
+    line-height: 1.22;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: #F7941E;
+}
+
+.button {
+    border-style: none;
+    cursor: pointer;
+    display: block;
+    background: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 22px;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    color: #F7941E;
+    padding: 13px 24px;
+}
