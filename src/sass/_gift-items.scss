@@ -1,0 +1,73 @@
+:root {
+    --main-color: #000000;
+    --trans-dur: 250ms;
+    --trans-timing-func: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.padding {
+    padding-top: 96px;
+    padding-bottom: 161px;
+}
+.section-title {
+    margin-bottom: 24px;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.19;
+
+    color: var(--main-color);
+}
+
+.service-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 57px;
+
+    color: var(--main-color);
+
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.card-description {
+    padding: 24px;
+    background-color: #FAFAFA;
+
+    transition: box-shadow var(--trans-dur) var(--trans-timing-func);   transition-timing-function: var(--trans-timing-func);
+}
+
+.card-title {
+    margin-bottom: 74px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    color: var(--main-color);
+}
+
+.card-more {
+    font-size: 14px;
+    line-height: 1.36;
+
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.card-item-link {
+    display: block;
+    cursor: pointer;
+}
+
+.card-item-link:hover .card-description, 
+.card-item-link:focus .card-description {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
