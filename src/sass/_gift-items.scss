@@ -1,8 +1,46 @@
-.gift{
+
+  .gifts{
+    padding-top: 96px;
+    padding-bottom: 161px;
+  }
+  
+  .gift{
     display: flex;
+    justify-content: center;
+
 }
-.gift .item:not(:first-child) {
-    margin-left: 30px;}
-  .section-title{
+.gift .item:not(:first-child){
+    margin-left: 30px;
+}
+.section-title{
     text-align: center;
-  margin-bottom: 72px;}
+  margin-bottom: 23px;
+}
+.gifts-text{
+  font-size: 18px;
+  line-height: 1.36;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.under-gift{
+  padding: 24px;
+  background-color:#FAFAFA;
+}
+  
+.link{
+  font-size: 14px;
+  line-height: 1.36;
+}
+
+.title-gift{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 72px;
+}
+
+
+
+
+
+
