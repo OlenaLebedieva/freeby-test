@@ -1,16 +1,10 @@
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 37px 34px 37px 80px;
-}
 
-// .header .container {
-//     display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         padding: 37px 34px 37px 80px;
-// }
+.header .container{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 37px 34px 37px 80px;
+}
 
 
 .navigation-list {
@@ -28,6 +22,12 @@
     text-align: center;
     margin-right: 433px;
 }
+
+.header-title:hover,
+.header-title:focus {
+    color: #F7941E;
+}
+
 
 .navigation-item:not(:last-child) {
     margin-right: 31px;
@@ -59,4 +59,10 @@
     border-radius: 5px;
     color: #F7941E;
     padding: 13px 24px;
+}
+
+.button:hover,
+.button:focus {
+    color: #fff;
+    background: #F7941E;
 }
