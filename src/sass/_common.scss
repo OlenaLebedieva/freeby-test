@@ -6,15 +6,11 @@ body {
 }
 
 .container {
-    max-width: 1140px;
+    width: 1140px;
     margin: 0 auto;
 }
 
-.list {
-    list-style: none;
-}
-
-.link {
+a {
     text-decoration: none;
 }
 
@@ -33,6 +29,7 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    list-style: none;
 }
 
 img {
