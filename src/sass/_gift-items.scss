@@ -41,7 +41,7 @@
     padding: 24px;
     background-color: #FAFAFA;
 
-    transition: box-shadow var(--trans-dur) var(--trans-timing-func);   transition-timing-function: var(--trans-timing-func);
+    transition: box-shadow var(--trans-dur) var(--trans-timing-func); 
 }
 
 .card-title {
