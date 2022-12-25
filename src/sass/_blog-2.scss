@@ -1,0 +1,46 @@
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.blog {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.blog-list {
+    display: flex;
+}
+
+.blog-item {
+    padding: 48px;
+    background-color: aqua;
+}
+
+.blog-item:nth-child(1) {
+    margin-right: 30px;
+}
+
+.blog-list-header {
+    margin-bottom: 16px;
+
+    font-size: 24px;
+    line-height: 1.41;
+    color: #000000;
+}
+
+.blog-list-text {
+    margin-bottom: 16px;
+
+    font-size: 18px;
+    line-height: 1.41;
+    color: #000000;
+}
+
+.blog-link {
+    font-size: 14px;
+    line-height: 1.41;
+    color: #000000;
+}
