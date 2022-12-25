@@ -1,7 +1,7 @@
 .list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    // padding: 0;
+    // margin: 0;
+    // list-style: none;
 }
 
 .blog {
@@ -12,10 +12,12 @@
 
 .blog-list {
     display: flex;
+    justify-content: center;
 }
 
 .blog-item {
     padding: 48px;
+    width: 570px;
     background-color: aqua;
 }
 
