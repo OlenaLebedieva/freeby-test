@@ -48,6 +48,13 @@
     border-radius: 5px;
     color: #fff;
     background-color: #F7941E;
+
+    transition: background-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  background-color: #000;
 }
 
 .right-side {
