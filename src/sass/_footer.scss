@@ -1,8 +1,10 @@
+
 .footer-icons-list {
     display: flex;
     gap: 25.6px;
     justify-content: center;
     align-items: center;
+    padding-top: 55.8px;
 }
 
 .footer-icons-svg {
@@ -10,5 +12,13 @@
     height: 38.4px;
 }
 
+.footer-copyright {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72.8px;
+    padding-bottom: 35px ;
 
+}
 
