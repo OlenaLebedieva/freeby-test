@@ -6,4 +6,6 @@
     --white-color: #FFFFFF;
     --main-background-color: #F1F1F2;
     --shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    --trans-dur: 250ms;
+    --trans-timing-func: cubic-bezier(0.4, 0, 0.2, 1);
 }
