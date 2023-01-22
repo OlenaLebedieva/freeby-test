@@ -1,4 +1,6 @@
-
+footer{
+    background-color: var(--second-background);
+}
 .container-footer{
     display: flex;
     justify-content: center;
@@ -8,6 +10,7 @@
             padding-bottom: 43px;
             border-bottom: 1px solid #000000;
             width: 1000px;
+            margin: 0 auto;
 }
 .footer-nav-1{
     display: flex;
