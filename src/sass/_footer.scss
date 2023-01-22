@@ -1,3 +1,4 @@
+
 .container-footer{
     display: flex;
     justify-content: center;
@@ -27,4 +28,34 @@
     font-size: 18px;
         line-height: 2.1;
  color: var(--accent-color-text);
+
+}
+.footer-icons-list {
+    display: flex;
+    gap: 25.6px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55.8px;
+}
+
+.footer-icons-svg {
+    width: 38.4px;
+    height: 38.4px;
+}
+
+.footer-copyright {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72.8px;
+    padding-bottom: 35px ;
+
+}
+
+.footer-icons-svg:hover,
+.footer-icons-svg:focus,
+.copiright-icon:hover,
+.copiright-icon:focus {
+    fill: #F7941E;
 }
