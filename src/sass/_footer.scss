@@ -1,4 +1,38 @@
+footer{
+    background-color: var(--second-background);
+}
+.container-footer{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        gap: 141px;
+        padding-top: 106px;
+            padding-bottom: 43px;
+            border-bottom: 1px solid #000000;
+            width: 1000px;
+            margin: 0 auto;
+}
+.footer-nav-1{
+    display: flex;
+    gap: 81px;
+}
+.footer-nav-2{
+    display: flex;
+    gap: 54px;
+}
+.footer-link{
+    font-family:"Roboto";
+    font-size: 14px;
+        line-height: 1.4;
+        color: var(--main-color-text);
+}
+.footer-logo{
+    font-family: 'Homemade Apple';
+    font-size: 18px;
+        line-height: 2.1;
+ color: var(--accent-color-text);
 
+}
 .footer-icons-list {
     display: flex;
     gap: 25.6px;
