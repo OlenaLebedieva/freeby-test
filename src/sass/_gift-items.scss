@@ -1,4 +1,4 @@
-.padding {
+.gifts {
     padding-top: 96px;
     padding-bottom: 161px;
 }
@@ -26,10 +26,8 @@
 
 .service-list {
     display: flex;
-    flex-wrap: wrap;
     gap: 30px;
-    margin-left: 135px;
-    margin-right: 135px;
+    justify-content: center;
 }
 
 .card-description {
